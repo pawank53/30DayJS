@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- // Task 8: Add and remove a CSS class to/from an HTML element. -->
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+        #box {  
+            width: 100px;
+            height: 100px;
+            background-color: lightgray;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p id="heading">This is paragraph</p>
+    <button onclick="changeText()">Click me!</button>
+
+
+    <!-- Task 2: Select HTML elements by their class and change their background color. -->
+    <div class="color-change">Div 1</div>
+    <div class="color-change">Div 2</div>
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
+
+    <!-- Task 3: Create a new div element with some text content and append it to the body. -->
+    <!-- Here the new div will be visible  -->
+
+    <!-- Task 4: Create a new li element and add it to an existing ul list. -->
+    <!-- existing ul -->
+    <ul id="list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <!-- new list will be visible here  -->
+    </ul>
+
+    <!-- Task 7: Select an HTML element and change one of its attributes (e.g., src of an img tag). -->
+    <img id="image" src="https://cdn.pixabay.com/photo/2016/07/07/15/58/couple-1502616_1280.jpg" alt="Old Image">
+
+    <!-- // Task 8: Add and remove a CSS class to/from an HTML element. -->
+    <p id="paragraph">This is a paragraph.</p>
+    <button onclick="toggleHighlight()">Toggle Highlight</button>
+
+
+    <!-- Task 9 -->
+    <p id="textParagraph">Original text</p>
+    <button id="changeTextButton">Change Text</button>
+
+
+    <!-- Task 10 -->
+    <div id="box"></div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
